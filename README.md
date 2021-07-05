@@ -66,4 +66,22 @@ Pode ser observado que a função LD1 não promoveu uma boa separação entre to
 
 A diferença na quantidade de barras dos histogramas de LD1 e LD2 representa a proximidade encontrada por cada função dentro de cada um dos três grupos. Como LD1 obteve percentual de separação muito maior, as observações entre os grupos estão muito mais próximas e, como consequência, promove uma menor quantidade de barras no histograma. Essa separação era esperada devido à ótima separação das observações.
 
+# Implementação do modelo preditivo para classificação - discriminante linear
+
+Está na figura abaixo o código do R para o teste do modelo de classificação dos grupos, para a tabela com as previsões do modelo e para o erro da previsão do modelo. O resultado pode ser visto na figura subsequente.
+
+![image](https://user-images.githubusercontent.com/81119854/124522254-fb0c0a00-ddc8-11eb-8884-186dca6eb7e2.png)
+
+![image](https://user-images.githubusercontent.com/81119854/124522278-124af780-ddc9-11eb-94be-6e9919dbd51e.png)
+
+Pode ser visto na Tabela da Figura 13 que os valores utilizados para teste foram agrupados com excelência. Portanto, o erro calculado a partir dessa previsão apresentou
+valor nulo. Esse resultado está coerente e esperado com o agrupamento observado. Um bom agrupamento, sem sobreposição dos grupos, resulta em uma ótima previsão para classificar novas observações dentro dos grupos.
+
+# Implementação do modelo preditivo para classificação - discriminante quadrático
+
+Similar à determinação dos discriminantes lineares é a determinação dos discriminantes quadráticos. Podem ser vistas na figura abaixo, as probabilidades de selecionar um grupo pela escolha aleatória de uma observação (1: 26,92 %; 2: 23,08 % e 3: 50,00 %) e as médias de cada um dos grupos para todas as variáveis.
+
+![image](https://user-images.githubusercontent.com/81119854/124522481-ca78a000-ddc9-11eb-9fe3-bf8173c666bd.png)
+
+
 
