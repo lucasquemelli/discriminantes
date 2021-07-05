@@ -83,5 +83,6 @@ Similar à determinação dos discriminantes lineares é a determinação dos di
 
 ![image](https://user-images.githubusercontent.com/81119854/124522481-ca78a000-ddc9-11eb-9fe3-bf8173c666bd.png)
 
+![image](https://user-images.githubusercontent.com/81119854/124522769-c1d49980-ddca-11eb-861f-1de54705492f.png)
 
 
