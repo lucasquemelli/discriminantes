@@ -85,4 +85,20 @@ Similar à determinação dos discriminantes lineares é a determinação dos di
 
 ![image](https://user-images.githubusercontent.com/81119854/124522769-c1d49980-ddca-11eb-861f-1de54705492f.png)
 
+![image](https://user-images.githubusercontent.com/81119854/124523287-d74ac300-ddcc-11eb-9f69-3efea57f7641.png)
 
+![image](https://user-images.githubusercontent.com/81119854/124523297-e2055800-ddcc-11eb-91b7-fcef1603c02f.png)
+
+É possível constatar que o grupo 3 possui a maior quantidade de componentes, visto que possui a maior probabilidade de escolha aleatória de uma observação. Para prosseguir com a análise, foram necessárias decisões diferentes das escolhidas para o discriminante linear. 
+
+Os gráficos de separação das observações e histogramas não puderam ser gerados para o discriminante quadrático. Nem mesmo o mesmo procedimento para determinar a tabela de previsão de acerto do modelo foi calculada da mesma forma. 
+
+Pela forma calculada no item de discriminante linear, a utilização dos dados escolhidos para teste era negada pela justificativa do número de dados selecionados ser muito pequeno (“some groups are too small for qda”). Mesmo alterando o percentual de dados para teste, não foi possível utilizar o método anterior. Assim, foi escolhido um novo método, e os resultados para a tabela de previsão e de erro de previsão do modelo estão presentes na figura abaixo.
+
+![image](https://user-images.githubusercontent.com/81119854/124523433-71127000-ddcd-11eb-89a7-b1ed57d15195.png)
+
+Pode ser visto na Tabela de previsão que o discriminante quadrático não errou nenhuma previsão a partir do conjunto de dados para teste. Portanto, o erro de previsão do modelo é nulo. Esse resultado era esperado devido à ótima separação de grupos a partir do algoritmo do R pela função kmeans.
+
+O discriminante linear apresenta como vantagens o uso de gráficos de histograma e de biplot que auxiliam na interpretação da análise. Quando há uma diferença muito grande entre os grupos selecionados, a análise por discriminante linear será tão boa quanto a quadrática – o que foi observado na solução deste problema. 
+
+A desvantagem em relação ao discriminante quadrático é que não é útil para problemas não lineares – que constituem maioria dos problemas reais. A análise de discriminantes é similar à análise de componentes principais (PCA), porque ambas as análises reduzem as dimensões. Contudo, PCA busca as variáveis com a maior variância. Enquanto que, a análise de discriminantes, maximiza a separação de categorias conhecidas.
