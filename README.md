@@ -1,4 +1,4 @@
-# discriminantes
+# Discriminantes
 Este é um projeto que utiliza análise de discriminantes para avaliar as variáveis de um processo químico industrial.
 
 A análise de discriminantes tem como finalidade estabelecer combinações lineares ou quadráticas que promovam a melhor separação entre dois ou mais grupos. O propósito fundamental é estimar uma relação entre uma variável dependente isolada e um conjunto quantitativo de variáveis independentes.
