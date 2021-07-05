@@ -37,3 +37,13 @@ O gráfico gerado a partir da função plot para exemplificar o procedimento ale
 
 ![image](https://user-images.githubusercontent.com/81119854/124520991-7cad6900-ddc4-11eb-914c-b57b3f173b98.png)
 
+Pode ser notado na figura acima que a seleção de dados para os conjuntos treinamento e teste foi aleatória (não apresentou tendências na sua distribuição). Após o treinamento do modelo, utiliza-se os discriminantes linear e quadrático.
+
+# Discriminante linear
+
+A implementação do código do R para o discriminante linear, para a exibição dos seus valores e para o gráfico identificando a separação dos grupos (no conjunto de treinamento) pode ser vista na figura abaixo. Os valores dos coeficientes dos discriminantes LD1 e LD2 gerados podem ser vistos na figura subsequente.
+
+![image](https://user-images.githubusercontent.com/81119854/124521377-a6b35b00-ddc5-11eb-8d2a-29fa5a50d6a3.png)
+
+![image](https://user-images.githubusercontent.com/81119854/124521412-c480c000-ddc5-11eb-863e-31bfd40cb7f1.png)
+
