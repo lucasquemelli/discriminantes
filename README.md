@@ -56,3 +56,9 @@ Pela figura acima, pode ser concluído que houve uma ótima separação dos grup
 Essa situação facilita no treinamento do modelo de previsão, fazendo com que a porcentagem de treinamento seja mais flexível, além de diminuir o erro de previsão do modelo. Outra forma de visualizar a separação é visualizando a separação provocada por cada função. 
 
 O código para os gráficos de histogramas dessa separação está na figura abaixo e os histogramas da separação dos dados em três grupos pelas duas funções estão na figura subsequente.
+
+![image](https://user-images.githubusercontent.com/81119854/124521810-46251d80-ddc7-11eb-988e-1228a47292f5.png)
+
+![image](https://user-images.githubusercontent.com/81119854/124521838-589f5700-ddc7-11eb-9164-29e90ce53422.png)
+![image](https://user-images.githubusercontent.com/81119854/124521869-753b8f00-ddc7-11eb-9b69-1a711614c388.png)
+
