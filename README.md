@@ -59,6 +59,7 @@ O código para os gráficos de histogramas dessa separação está na figura aba
 
 ![image](https://user-images.githubusercontent.com/81119854/124521810-46251d80-ddc7-11eb-988e-1228a47292f5.png)
 
-![image](https://user-images.githubusercontent.com/81119854/124521838-589f5700-ddc7-11eb-9164-29e90ce53422.png)
-![image](https://user-images.githubusercontent.com/81119854/124521869-753b8f00-ddc7-11eb-9b69-1a711614c388.png)
+![image](https://user-images.githubusercontent.com/81119854/124521921-aa47e180-ddc7-11eb-89b4-d3fc80a2ea12.png)
+![image](https://user-images.githubusercontent.com/81119854/124521940-c055a200-ddc7-11eb-9903-d00193fec0ac.png)
+
 
