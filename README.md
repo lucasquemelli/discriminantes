@@ -62,4 +62,8 @@ O código para os gráficos de histogramas dessa separação está na figura aba
 ![image](https://user-images.githubusercontent.com/81119854/124521921-aa47e180-ddc7-11eb-89b4-d3fc80a2ea12.png)
 ![image](https://user-images.githubusercontent.com/81119854/124521940-c055a200-ddc7-11eb-9903-d00193fec0ac.png)
 
+Pode ser observado que a função LD1 não promoveu uma boa separação entre todos os grupos. Os grupos 1 e 3 não foram separados. De forma diferente, a função LD2 apresentou ótima separação entre todos os grupos. 
+
+A diferença na quantidade de barras dos histogramas de LD1 e LD2 representa a proximidade encontrada por cada função dentro de cada um dos três grupos. Como LD1 obteve percentual de separação muito maior, as observações entre os grupos estão muito mais próximas e, como consequência, promove uma menor quantidade de barras no histograma. Essa separação era esperada devido à ótima separação das observações.
+
 
