@@ -47,3 +47,12 @@ A implementação do código do R para o discriminante linear, para a exibição
 
 ![image](https://user-images.githubusercontent.com/81119854/124521412-c480c000-ddc5-11eb-863e-31bfd40cb7f1.png)
 
+A porcentagem de separação da função LD1 é de 87,98 %, enquanto a porcentagem de separação da função LD2 é de 12,02 %. Para identificar as observações e como elas estão separadas, foi construído o gráfico da figura abaixo, em função dos dois discriminantes lineares.
+
+![image](https://user-images.githubusercontent.com/81119854/124521529-348f4600-ddc6-11eb-8391-4097586ad400.png)
+
+Pela figura acima, pode ser concluído que houve uma ótima separação dos grupos. LD1 é a função responsável pela maior separação entre os grupos, enquanto LD2 pela segunda maior separação. Ambas permitem a visualização de quais grupos estão direcionando os dois eixos. 
+
+Essa situação facilita no treinamento do modelo de previsão, fazendo com que a porcentagem de treinamento seja mais flexível, além de diminuir o erro de previsão do modelo. Outra forma de visualizar a separação é visualizando a separação provocada por cada função. 
+
+O código para os gráficos de histogramas dessa separação está na figura abaixo e os histogramas da separação dos dados em três grupos pelas duas funções estão na figura subsequente.
